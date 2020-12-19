@@ -1,0 +1,189 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+div.one {
+    width: 100%;
+    background-color: white;
+    height: 62px;
+}
+
+div.two {
+    width: 100%;
+    background-color: white;
+    height: 87px;
+}
+
+
+div.three {
+    width: 100%;
+    height: 800px;
+    background-color: white;
+}
+
+div.onechild {
+    width: 70%;
+    height: 62px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+div.twochild {
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    margin: 0 auto;
+}
+
+div.threechild {
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    margin: 0 auto;
+    display: -webkit-box;
+}
+
+
+div.three-grandchild {
+    width: 70%;
+    height: 100%;
+    background-color: salmon;
+}
+
+div.three-second-grandchild {
+    width: 30%;
+    height: 100%;
+    background-color: bisque;
+ 
+}
+
+ul.one > li {
+    width: 88px;
+    list-style: none;
+    background-color: white;
+    border: 1px solid;
+    text-align: center;
+    height: 60px;
+}
+
+ul.one {
+    display: -webkit-box;
+    margin: 0;
+    padding: 0;
+}
+
+div.pokemon {
+    background: black;
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+}
+
+div.pokemon > div {
+    background: white;
+    border: 1px solid #fff;
+    width: 33%;
+    height: 100%;
+}
+
+
+ul.home {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+
+ul.home > li {
+    width: 14.1%;
+    border: 1px solid;
+    height: 85px;
+    list-style: none;
+} 
+
+
+div.orange {
+    width: 100%;
+    background-color: orange;
+    height: 100%;
+}
+
+div.blueviolet {
+    width: 100%;
+                height: 70%;
+                background-color: orange;
+}
+
+div.red {
+    width: 100%;
+                height: 30%;
+                background-color: red;
+                display: inline-flex;
+}
+
+div.aquamarine {
+    width: 50%;
+                height: 100%;
+                border: 1px solid #fff;
+                background-color: aquamarine;
+}
+
+div.cadetblue {
+    width: 50%;
+    height: 100%;
+    border: 1px solid #fff;
+    background-color: deepskyblue;
+}
+
+.three-second-grandchild> div {
+    height: 33%;
+    width: 100%;
+    border: 1px solid;
+}
+
+ul.home>li {
+    text-align: center;
+    
+}
+
+ul.home>li>a>img {
+    width: 50px;
+    height: 30px;
+}
+
+li.one {
+    background-color: #919191;
+}
+
+li.two:hover {
+   background-color: #e3350d;
+}
+
+li.three:hover {
+    background-color: #ee6b2f;
+ }
+ 
+ 
+li.four:hover {
+    background-color: #e6bc2f;
+ }
+
+
+li.five:hover {
+    background-color: #4dad5b;
+ }
+
+li.six:hover {
+    background-color: #30a7d7;
+ }
+
+
+li.seven:hover {
+    background-color: #1b53ba;
+ }
+
+.three-second-grandchild>div>a>img {
+    height: 70%;
+}
